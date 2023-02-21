@@ -1,0 +1,35 @@
+wait()
+local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+wait()
+local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+wait()
+local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+wait()
+local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+wait()
+local tool5 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+wait()
+tool1.BinType = "Clone"
+wait(0.1)
+tool2.BinType = "GameTool"
+wait(0.1)
+tool3.BinType = "Hammer"
+wait(0.1)
+tool4.BinType = "Script"
+wait(0.1)
+tool5.BinType = "Grab"
+wait()
+loadstring(game:GetObjects("rbxassetid://4698064966")[1].Source)()
+wait()
+
+--1. Tool = Clone Tool
+
+--2. Tool = Game Tool
+
+--3. Tool = Destroy Tool
+
+--4. Tool = Script Tool
+
+--5. Tool = Grab Obj Tool
+
+--6. Tool = Advanced Building Tool
